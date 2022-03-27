@@ -1,0 +1,32 @@
+#manipulandoClasse{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #CCC;
+}
+
+.verde{
+    background-color: #00FF00;
+}
+
+.vermelho{
+    background-color: #FF0000;
+}
+
+.azul{
+    background-color: #0000FF;
+}
+
+.preto{
+    background-color: #000;
+    color: #FFF;
+}
+
+.branco{
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+/*
+Arquivo relacionado até a aula 8_funcoes dos arquivos .js
+*/

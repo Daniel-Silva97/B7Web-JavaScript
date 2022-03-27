@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript</title> <!--Título da página, fica na ABA-->
+    <link rel="stylesheet" href="style.css" /> <!--Vinculando ao arquivo CSS-->
+
+</head>
+<body>
+   <h1 id="titulo">Seja bem-vindo(a)</h1>
+   <div class="conteudo">
+        Arroz, Feijão e Carne.
+   </div>
+
+   <div class="conteudo">
+        Whisky, Vinho e Refrigerante
+   </div>
+
+   <button>Clique aqui!</button>
+   <input type="text" name="E-mail" placeholder="Digite seu e-mail"/>
+   <input type="text" name="Telefone" placeholder="Digite seu telefone"/>
+
+   <div id="manipulandoClasse">Daniel</div>
+
+   <button onclick="verde()">Verde</button>
+   <button onclick="vermelho()">Vermelho</button>
+   <button onclick="azul()">Azul</button>
+   <button class="preto" onclick="trocar()">Alternando cores</button>
+  
+  
+  
+  
+  
+   <script src="script.js"></script>
+    <!--
+        Vinculando ao arquivo JavaScript.
+        A ideia de colocar o comando script no final do <body> é o ideal pois faz com que carregue todo o site antes do arquivo Javascript, isso faz que o site tenha ganho de performance na hora de carregar, pois se informamos no <head>, obrigaria a carregar todo o javascript antes do site.
+    -->
+</body>
+</html>
+
+<!--Este index.html abrange todas as aulas até 8_funcoes dos arquivos .js -->
